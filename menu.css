@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(136, 212, 136);
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(1, 61, 23);
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(1, 61, 23) ;
+    font-size: 60px;
+    font-family: 'Times New Roman'
+}
+#menubar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-style: oblique;
+}
+.starter{
+    border: 3px solid green;
+    margin: 20px 20px 80px 80px;
+    padding: 20px 20px 80px 80px;
+}
+.main{
+    border: 3px solid green;
+     margin: 20px 20px 80px 80px;
+    padding: 20px 20px 80px 80px;
+}
